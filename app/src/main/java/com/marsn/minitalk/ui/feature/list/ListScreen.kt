@@ -51,7 +51,7 @@ fun ListScreen(
         viewModel.uiEvent.collect { uiEvent ->
 
             when (uiEvent) {
-                UIEvent.NavigateBack -> TODO()
+                UIEvent.NavigateBack -> {}
                 is UIEvent.NavigateTo<*> -> {
                     when (uiEvent.route) {
                         is AddEditRoute -> {
@@ -59,7 +59,7 @@ fun ListScreen(
                         }
                     }
                 }
-                is UIEvent.ShowSnackbar -> TODO()
+                is UIEvent.ShowSnackbar -> {}
             }
 
         }
