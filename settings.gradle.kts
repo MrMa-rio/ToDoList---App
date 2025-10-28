@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MiniTalk"
+rootProject.name = "ToDoList"
 include(":app")
  

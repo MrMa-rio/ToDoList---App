@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.marsn.minitalk"
+    namespace = "com.marsn.todolist"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.marsn.minitalk"
+        applicationId = "com.marsn.todolist"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
