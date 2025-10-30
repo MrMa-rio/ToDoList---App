@@ -61,7 +61,7 @@ class AddEditViewModel(
             if (title.isBlank()) {
                 _uiEvent.send(
                     UIEvent.ShowSnackbar(
-                        message = "The title can't be empty"
+                        message = "O titulo nao pode ser vazio"
                     )
                 )
                 return@launch
